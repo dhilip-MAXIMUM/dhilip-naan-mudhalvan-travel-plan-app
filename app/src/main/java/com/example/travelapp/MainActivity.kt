@@ -15,7 +15,6 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -33,39 +32,35 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-
     @Composable
     fun TravelApp(context: Context) {
         Column(
             modifier = Modifier
                 .padding(20.dp)
                 .verticalScroll(rememberScrollState())
-
         ) {
 
             Text(
                 fontSize = 40.sp,
                 color = Color(android.graphics.Color.rgb(120, 40, 251)),
                 fontFamily = FontFamily.Cursive,
-                text = "Wanderlust Travel"
+                text = "DSK Travel"
             )
 
             Spacer(modifier = Modifier.height(20.dp))
 
-            // 01
+            // 01 Bali Card
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(250.dp)
                     .clickable {
-                    context.startActivity(
-                        Intent(context, BaliActivity::class.java)
-
-                    )
+                        context.startActivity(
+                            Intent(context, BaliActivity::class.java)
+                        )
                     },
                 elevation = 8.dp
-            )
-            {
+            ) {
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
@@ -73,7 +68,8 @@ class MainActivity : ComponentActivity() {
                         painterResource(id = R.drawable.bali), contentDescription = "",
                         modifier = Modifier
                             .height(150.dp)
-                            .scale(scaleX = 1.2F, scaleY = 1F)
+                            .width(250.dp) // Adjust width as needed
+                            .padding(top = 16.dp) // Added padding from the top
                     )
 
                     Text(
@@ -81,7 +77,6 @@ class MainActivity : ComponentActivity() {
                         fontSize = 18.sp
                     )
 
-
                     Text(
                         text = stringResource(id = R.string.description),
                         fontWeight = FontWeight.Light,
@@ -98,21 +93,18 @@ class MainActivity : ComponentActivity() {
 
             Spacer(modifier = Modifier.height(20.dp))
 
-
-            //02
+            // 02 Paris Card
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(250.dp)
                     .clickable {
-                    context.startActivity(
-                        Intent(context, ParisActivity::class.java)
-
-                    )
+                        context.startActivity(
+                            Intent(context, ParisActivity::class.java)
+                        )
                     },
                 elevation = 8.dp
-            )
-            {
+            ) {
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
@@ -120,14 +112,14 @@ class MainActivity : ComponentActivity() {
                         painterResource(id = R.drawable.paris), contentDescription = "",
                         modifier = Modifier
                             .height(150.dp)
-                            .scale(scaleX = 1.2F, scaleY = 1F)
+                            .width(250.dp) // Adjust width as needed
+                            .padding(top = 16.dp) // Added padding from the top
                     )
 
                     Text(
                         text = stringResource(id = R.string.place_2),
                         fontSize = 18.sp
                     )
-
 
                     Text(
                         text = stringResource(id = R.string.description),
@@ -145,20 +137,18 @@ class MainActivity : ComponentActivity() {
 
             Spacer(modifier = Modifier.height(20.dp))
 
-            //03
+            // 03 Singapore Card
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(250.dp)
                     .clickable {
-                    context.startActivity(
-                        Intent(context, SingaporeActivity::class.java)
-
-                    )
+                        context.startActivity(
+                            Intent(context, SingaporeActivity::class.java)
+                        )
                     },
                 elevation = 8.dp
-            )
-            {
+            ) {
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
@@ -166,14 +156,14 @@ class MainActivity : ComponentActivity() {
                         painterResource(id = R.drawable.singapore), contentDescription = "",
                         modifier = Modifier
                             .height(150.dp)
-                            .scale(scaleX = 1.2F, scaleY = 1F)
+                            .width(250.dp) // Adjust width as needed
+                            .padding(top = 16.dp) // Added padding from the top
                     )
 
                     Text(
                         text = stringResource(id = R.string.place_3),
                         fontSize = 18.sp
                     )
-
 
                     Text(
                         text = stringResource(id = R.string.description),
@@ -193,5 +183,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-

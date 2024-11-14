@@ -64,40 +64,58 @@ fun Greeting2() {
         )
         Text(
             color = Color.Black,
-            text = "Day 1:\n" +
-
-                    "Morning: Visit Gardens by the Bay and marvel at the Supertree Grove and the Flower Dome and Cloud Forest conservatories.\n" +
-                    "Afternoon: Explore the Marina Bay Sands complex, which includes a casino, luxury shopping mall, and observation deck with a stunning view of the city.\n" +
-                    "\n" +
-                    "Day 2:\n" +
-
-                    "Morning: Explore the historic district of Chinatown, including the Buddha Tooth Relic Temple and Museum and the Sri Mariamman Temple.\n" +
-                    "Afternoon: Visit the nearby Clarke Quay for lunch and to explore its waterfront restaurants, bars, and shops.\n" +
-                    "\n" +
-                    "Day 3:\n" +
-
-                    "Morning: Take a tour of the UNESCO-listed Botanic Gardens, one of the world's most famous and significant tropical gardens.\n" +
-                    "Afternoon: Head over to the National Museum of Singapore, which houses a vast collection of historical and cultural artifacts.\n" +
+            text = "Day 1: Arrival in Sydney\n" +
+                    "Morning: Arrive in Sydney and check into your hotel.\n" +
+                    "Afternoon: Explore Circular Quay and The Rocks area, including Sydney Harbour Bridge and Opera House.\n" +
+                    "Evening: Take a sunset cruise on Sydney Harbour and enjoy dinner with a view.\n" +
 
                     "\n" +
-                    "Day 4:\n" +
+                    "Day 2: Sydney Sightseeing\n" +
+                    "Morning: Visit Bondi Beach and enjoy a coastal walk to Coogee.\n" +
+                    "Afternoon: Explore the Royal Botanic Garden and Darling Harbour.\n" +
+                    "Evening: Have dinner at a waterfront restaurant in Darling Harbour.\n" +
 
-                    "Morning: Visit the Singapore Zoo and admire the wildlife, including orangutans, tigers, and elephants.\n" +
-                    "Afternoon: Head over to Sentosa Island and relax at one of its many beaches or try some of the many attractions such as Universal Studios Singapore or Adventure Cove Waterpark.\n" +
                     "\n" +
-                    "Day 5:\n" +
+                    "Day 3: Blue Mountains Day Trip\n" +
+                    "Full day: Take a day trip to the Blue Mountains, visit Echo Point and the Three Sisters rock formation.\n" +
+                    "Explore Scenic World and enjoy the stunning views of waterfalls and rainforest.\n" +
 
-                    "Morning: Go on a nature walk at MacRitchie Reservoir, which offers hiking trails and stunning views of the city skyline.\n" +
-                    "Afternoon: Visit Little India, a vibrant and colorful neighborhood, and explore the shops, temples, and food stalls.\n" +
                     "\n" +
-                    "Day 6:\n" +
+                    "Day 4: Travel to Melbourne\n" +
+                    "Morning: Take a flight to Melbourne.\n" +
+                    "Afternoon: Explore Federation Square and visit the National Gallery of Victoria.\n" +
+                    "Evening: Visit the Eureka Skydeck for panoramic views of the city.\n" +
 
-                    "Morning: Explore the trendy neighborhood of Tiong Bahru, known for its hip cafes and boutiques, as well as its Art Deco architecture.\n" +
-                    "Afternoon: Visit the National Gallery Singapore, which houses the largest public collection of modern art in Singapore and Southeast Asia.\n" +
                     "\n" +
-                    "Day 7:\n" +
+                    "Day 5: Melbourne Highlights\n" +
+                    "Morning: Visit the Royal Botanic Gardens and enjoy a picnic.\n" +
+                    "Afternoon: Explore the laneways and street art of Melbourne’s CBD.\n" +
+                    "Evening: Have dinner in Chinatown and experience Melbourne’s multicultural cuisine.\n" +
 
-                    "Morning: Take a day trip to the nearby island of Pulau Ubin, where you can rent a "
+                    "\n" +
+                    "Day 6: Great Ocean Road\n" +
+                    "Full day: Take a scenic drive along the Great Ocean Road and visit the Twelve Apostles.\n" +
+                    "Stop at the Loch Ard Gorge and enjoy the stunning coastline views.\n" +
+
+                    "\n" +
+                    "Day 7: Travel to Cairns\n" +
+                    "Morning: Take a flight to Cairns.\n" +
+                    "Afternoon: Visit the Cairns Esplanade and Lagoon for a relaxing swim.\n" +
+                    "Evening: Enjoy a seafood dinner at a local restaurant along the waterfront.\n" +
+
+                    "\n" +
+                    "Day 8: Great Barrier Reef\n" +
+                    "Full day: Take a day tour to the Great Barrier Reef, go snorkeling or scuba diving to explore the vibrant marine life.\n" +
+
+                    "\n" +
+                    "Day 9: Daintree Rainforest\n" +
+                    "Full day: Explore the Daintree Rainforest, take a guided walk, and visit Cape Tribulation.\n" +
+                    "Enjoy a river cruise to spot crocodiles and other wildlife.\n" +
+
+                    "\n" +
+                    "Day 10: Departure\n" +
+                    "Morning: Last-minute shopping in Cairns.\n" +
+                    "Afternoon: Depart from Cairns and fly back home.\n"
         )
     }
 }

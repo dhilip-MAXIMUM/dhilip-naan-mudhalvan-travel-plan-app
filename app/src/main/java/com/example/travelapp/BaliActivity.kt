@@ -62,42 +62,64 @@ fun PlaceOne() {
         )
         Text(
             color=Color.Black,
-            text = "Day 1: Arrival and Relaxation\n" +
-
-                    "Arrive in Bali and check into your hotel or accommodation.\n" +
-                    "Spend the day relaxing and getting acclimated to the island.\n" +
-                    "If you have time, explore the nearby area or head to the beach.\n" +
+            text = "Day 1: Arrival in Tokyo and Relaxation\n" +
+                    "Arrive in Tokyo and check into your accommodation.\n" +
+                    "Spend the day exploring your neighborhood or relaxing.\n" +
+                    "Take an evening walk around Shinjuku and enjoy the vibrant city life.\n" +
                     "\n" +
 
-                    "Day 2: Ubud Tour\n" +
-
-                    "Start your day early and head to Ubud, a cultural and artistic hub in Bali.\n" +
-                    "Visit the Monkey Forest and the Ubud Palace.\n" +
-                    "Take a tour of the Tegalalang Rice Terrace, a beautiful UNESCO World Heritage Site.\n" +
-                    "End your day with a traditional Balinese dance performance.\n" +
+                    "Day 2: Asakusa and Senso-ji Temple\n" +
+                    "Start your day with a visit to Asakusa and the famous Senso-ji Temple.\n" +
+                    "Explore the Nakamise Street market for souvenirs and local snacks.\n" +
+                    "In the evening, enjoy a river cruise along the Sumida River.\n" +
                     "\n" +
-                    "Day 3: Temple Hopping\n" +
 
-                    "Visit some of Bali's most famous temples, such as Tanah Lot and Uluwatu.\n" +
-                    "Take in the stunning views of the ocean and cliffs.\n" +
-                    "Enjoy a sunset dinner at one of the many restaurants near the temples.\n" +
+                    "Day 3: Shibuya and Harajuku\n" +
+                    "Visit the iconic Shibuya Crossing and explore the trendy Harajuku district.\n" +
+                    "Stop by Meiji Shrine, one of Tokyo’s most important Shinto shrines.\n" +
+                    "Shop for the latest fashion trends in Omotesando or Takeshita Street.\n" +
                     "\n" +
-                    "Day 4: Waterfalls and Beaches\n" +
 
-                    "Take a day trip to Bali's beautiful waterfalls, such as Tegenungan or Gitgit.\n" +
-                    "Spend the afternoon at one of Bali's world-renowned beaches, like Seminyak or Nusa Dua.\n" +
+                    "Day 4: Odaiba and Tokyo Bay\n" +
+                    "Head to Odaiba, an artificial island with entertainment and shopping.\n" +
+                    "Visit teamLab Borderless for an immersive digital art experience.\n" +
+                    "End your day with a beautiful view of the Rainbow Bridge and Tokyo Bay.\n" +
                     "\n" +
-                    "Day 5: Island Hopping\n" +
 
-                    "Take a day trip to one of Bali's neighboring islands, such as Nusa Lembongan or Gili Islands.\n" +
-                    "Snorkel or scuba dive in the clear waters and relax on the beach.\n" +
+                    "Day 5: Tokyo Disneyland or DisneySea\n" +
+                    "Spend a day at Tokyo Disneyland or DisneySea, the magical amusement parks.\n" +
+                    "Enjoy rides, parades, and the unique atmosphere of Disney parks.\n" +
+                    "Relax and have dinner at one of the themed restaurants.\n" +
                     "\n" +
-                    "Day 6: Cultural Activities\n" +
-                    "Visit a traditional Balinese village and learn about the island.\n" +
-            "\n" +
-                    "Day 7: Departure\n" +
-                    "Explore the surrounding area and take in the stunning sunset views.\n" +
-                    "Have dinner at a local restaurant before returning to your accommodation."
+
+                    "Day 6: Akihabara and Electronics District\n" +
+                    "Dive into the world of anime, manga, and technology in Akihabara.\n" +
+                    "Shop for the latest gadgets, electronics, and otaku merchandise.\n" +
+                    "Take a break in one of Akihabara’s themed cafes, such as a maid cafe.\n" +
+                    "\n" +
+
+                    "Day 7: Day Trip to Nikko\n" +
+                    "Take a day trip to Nikko, a UNESCO World Heritage Site.\n" +
+                    "Visit Toshogu Shrine, famous for its elaborate carvings and the sacred bridge.\n" +
+                    "Explore the natural beauty of Nikko, including waterfalls and hot springs.\n" +
+                    "\n" +
+
+                    "Day 8: Roppongi Hills and Tokyo Tower\n" +
+                    "Visit Roppongi Hills for panoramic views of Tokyo from the observation deck.\n" +
+                    "Take a trip to Tokyo Tower for another iconic view of the city.\n" +
+                    "In the evening, explore the nightlife in the Roppongi district.\n" +
+                    "\n" +
+
+                    "Day 9: Tsukiji Fish Market and Ginza\n" +
+                    "Visit the famous Tsukiji Fish Market for fresh seafood and sushi.\n" +
+                    "Explore the upscale shopping district of Ginza.\n" +
+                    "In the evening, enjoy a rooftop dinner with a view of the Tokyo skyline.\n" +
+                    "\n" +
+
+                    "Day 10: Departure\n" +
+                    "Take a last stroll around your favorite areas in Tokyo.\n" +
+                    "Do some final shopping and enjoy a farewell lunch.\n" +
+                    "Head to the airport and depart Tokyo, taking home unforgettable memories."
         )
 
 

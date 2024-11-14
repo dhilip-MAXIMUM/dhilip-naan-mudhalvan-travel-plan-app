@@ -64,58 +64,83 @@ fun Greeting() {
         )
         Text(
             color=Color.Black,
-            text = "Day 1: Arrival and Introduction\n" +
+            text = "Day 1: Arrival in Zurich\n" +
 
-                    "Check into your accommodation and freshen up\n" +
-                    "Take a stroll around the neighborhood to get acquainted\n" +
-                    "Visit the Eiffel Tower, preferably in the evening when it is lit up\n" +
-                    "Have a relaxing dinner at a nearby restaurant\n" +
-
-                    "\n" +
-                    "Day 2: Art and History\n" +
-
-                    "Visit the Louvre Museum to see some of the world's most famous art pieces\n" +
-                    "Stroll through the Tuileries Garden and the Place de la Concorde\n" +
-                    "Visit the Orsay Museum, which houses a large collection of impressionist art\n" +
-                    "Have dinner at a local French restaurant\n" +
+                    "Arrive in Zurich and check into your accommodation.\n" +
+                    "Take a walk around the Old Town (Altstadt) to get familiar with the city.\n" +
+                    "Visit Lake Zurich for a relaxing boat ride and enjoy the beautiful views.\n" +
+                    "Have dinner at a local Swiss restaurant to try Swiss fondue.\n" +
 
                     "\n" +
-                    "Day 3: French Culture and Food\n" +
+                    "Day 2: Explore Zurich\n" +
 
-                    "Visit the Montmartre neighborhood to see the famous Basilique du Sacré-Cœur and Place du Tertre\n" +
-                    "Explore the historic neighborhood of Le Marais\n" +
-                    "Try some delicious French pastries at a local bakery\n" +
-                    "Have dinner at a brasserie to taste some classic French cuisine\n" +
-
-                    "\n" +
-
-                    "Day 4: Architecture and Gardens\n" +
-
-                    "Visit the Palace of Versailles, a UNESCO World Heritage site, and explore its beautiful gardens\n" +
-                    "Walk along the Champs-Elysées and stop at the Arc de Triomphe\n" +
-                    "Visit the Sainte-Chapelle, a beautiful Gothic chapel with stunning stained-glass windows\n" +
-                    "Have dinner at a local restaurant in the 7th arrondissement\n" +
+                    "Visit the Kunsthaus Zurich (Zurich Art Museum) for Swiss and international art.\n" +
+                    "Explore Bahnhofstrasse, one of the world's most exclusive shopping streets.\n" +
+                    "Visit the Swiss National Museum to learn about Swiss cultural history.\n" +
+                    "Enjoy a Swiss-style dinner at a local restaurant.\n" +
 
                     "\n" +
-                    "Day 5: Shopping and Sightseeing\n" +
+                    "Day 3: Lucerne and Mount Pilatus\n" +
 
-                    "Visit the Notre-Dame Cathedral and climb up to the top for a stunning view of the city\n" +
-                    "Explore the Latin Quarter and visit the Panthéon\n" +
-                    "Go shopping at the famous Galeries Lafayette or Printemps department stores\n" +
-                    "Have dinner at a local bistro\n" +
+                    "Take a day trip to Lucerne and explore the Chapel Bridge and Water Tower.\n" +
+                    "Visit the Swiss Museum of Transport or the Lion Monument.\n" +
+                    "Take a scenic ride up Mount Pilatus for panoramic views of the Swiss Alps.\n" +
+                    "Return to Zurich for dinner at a local restaurant.\n" +
+
                     "\n" +
-                    "Day 6: Parisian Parks and Museums\n" +
+                    "Day 4: Interlaken and Jungfraujoch\n" +
 
-                    "Visit the Musée Rodin and explore its beautiful gardens\n" +
-                    "Stroll through the Luxembourg Gardens and visit the Luxembourg Palace\n" +
-                    "Visit the Centre Pompidou, a modern art museum in the Marais neighborhood\n" +
-                    "Have dinner at a local restaurant in the Latin Quarter\n" +
+                    "Travel to Interlaken, nestled between Lake Thun and Lake Brienz.\n" +
+                    "Take a cogwheel train to Jungfraujoch, the highest railway station in Europe.\n" +
+                    "Explore the Ice Palace and enjoy spectacular views of the Aletsch Glacier.\n" +
+                    "Return to Interlaken and enjoy dinner with mountain views.\n" +
+
                     "\n" +
-                    "Day 7: River Cruise and Farewell\n" +
+                    "Day 5: Lauterbrunnen and Trummelbach Falls\n" +
 
-                    "Take a boat cruise along the Seine River to see the city from a different perspective\n" +
-                    "Visit the Musée de l'Orangerie, which houses Monet's famous water lilies paintings\n" +
-                    "Have a farewell dinner at a Michelin-starred restaurant"
+                    "Visit the stunning Lauterbrunnen Valley, known for its waterfalls.\n" +
+                    "Hike to the impressive Trummelbach Falls, a series of waterfalls inside a mountain.\n" +
+                    "Explore the charming village of Wengen or Mürren.\n" +
+                    "End the day with a Swiss dinner in Lauterbrunnen.\n" +
+
+                    "\n" +
+                    "Day 6: Zermatt and the Matterhorn\n" +
+
+                    "Travel to Zermatt and take the Gornergrat Railway for stunning views of the Matterhorn.\n" +
+                    "Explore Zermatt village, famous for its charming car-free streets.\n" +
+                    "Enjoy skiing or hiking depending on the season.\n" +
+                    "Have dinner in Zermatt with a view of the Matterhorn.\n" +
+
+                    "\n" +
+                    "Day 7: Geneva\n" +
+
+                    "Travel to Geneva, a city known for its international organizations.\n" +
+                    "Visit the United Nations headquarters and the Jet d'Eau fountain.\n" +
+                    "Explore the Old Town and the St. Pierre Cathedral.\n" +
+                    "Relax at the Parc des Bastions and have dinner at a local restaurant.\n" +
+
+                    "\n" +
+                    "Day 8: Montreux and Chillon Castle\n" +
+
+                    "Take a day trip to Montreux on Lake Geneva’s shores.\n" +
+                    "Visit the famous Chillon Castle, one of Switzerland’s most beautiful medieval castles.\n" +
+                    "Take a stroll along the Montreux lakeside promenade.\n" +
+                    "Enjoy a lakeside dinner in Montreux.\n" +
+
+                    "\n" +
+                    "Day 9: Bern\n" +
+
+                    "Travel to Bern, Switzerland’s capital city.\n" +
+                    "Explore the medieval Old Town, a UNESCO World Heritage site.\n" +
+                    "Visit the Zytglogge clock tower and the Federal Palace.\n" +
+                    "End the day with a visit to the Bear Park and dinner in Bern's Old Town.\n" +
+
+                    "\n" +
+                    "Day 10: Departure\n" +
+
+                    "Take a final stroll around Zurich or visit the Swiss Alps for some last-minute views.\n" +
+                    "Do some souvenir shopping before heading to the airport.\n" +
+                    "Farewell dinner before your flight home, cherishing the Swiss adventure."
         )
     }
 }
